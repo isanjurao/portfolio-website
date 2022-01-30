@@ -1,0 +1,50 @@
+.intro{
+   background-color: white;
+   display: flex;
+   flex-direction: row;
+   
+}
+.left1{
+    flex: 0.5;
+   
+}
+.right2{
+    flex: 0.5;
+    
+}
+.imgbox{
+    width: 700px;
+    height: 700px;
+    background-color: crimson;
+    border-radius: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    float: right; 
+} 
+.imgbox img{
+    height: 80%;
+}
+.con{
+    width: 100%;
+    height: 100%;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.con h2{
+    font-size: 35px;
+    margin: 10px 0px;
+}
+.con h1{
+    font-size: 60px;
+}
+.con h3{
+    font-size: 30px;
+}
+.con h3 span{
+    font-size: 30px;
+    color: crimson;
+    animation: typing 3.5s steps(30, end), blink-caret .5s step-end;
+}
